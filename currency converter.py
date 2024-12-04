@@ -8,8 +8,7 @@ def euro_rupee(euro):
 
 def yen_rupee(yen):
     inr = yen * 0.56
-    rounded_number = round(inr, 2)
-    print(rounded_number,"INR")
+    print(inr,"INR")
 
 
 def ruble_rupee(ruble):
