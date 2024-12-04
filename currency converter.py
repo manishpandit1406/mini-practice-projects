@@ -19,7 +19,7 @@ def ruble_rupee(ruble):
 def yuan_rupee(yuan):
     inr = yuan * 11.65
     print(inr,"INR")
-    # '{0:.2f}'.format(inr)
+
 currency = input("Enter the currency: ")
 if currency == "dollar" :
     dollar_rupee(dollar = int(input("Enter the dollar: ")))
@@ -33,5 +33,3 @@ elif currency == "yuan" :
     yuan_rupee(yuan = int(input("Enter the yuan: ")))
 else:
     print("Invalid currency")
-
-# f'{pi:.2f}'
